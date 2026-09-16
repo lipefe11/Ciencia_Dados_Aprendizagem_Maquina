@@ -1,0 +1,19 @@
+id_chamado,data_abertura,setor,categoria,prioridade,status,tempo_resolucao_horas,satisfacao,reaberto,analista
+CH001,2026-08-20,Financeiro,Acesso,Alta,Resolvido,3.5,5,Não,Ana
+CH002,2026-08-20,Acadêmico,Sistema lento,Média,Resolvido,12.0,4,Não,Bruno
+CH003,2026-08-21,Biblioteca,Impressora,Baixa,Resolvido,30.0,3,Sim,Carla
+CH004,2026-08-21,Financeiro,Erro de sistema,Crítica,Resolvido,2.0,5,Não,Ana
+CH005,2026-08-22,RH,Acesso,Média,Em andamento,,,Não,Diego
+CH006,2026-08-22,Acadêmico,Rede,Alta,Resolvido,9.5,2,Sim,Bruno
+CH007,2026-08-23,Laboratório,Hardware,Média,Resolvido,20.0,4,Não,Carla
+CH008,2026-08-23,Biblioteca,Sistema lento,Baixa,Resolvido,45.0,4,Não,Diego
+CH009,2026-08-24,RH,Erro de sistema,Alta,Resolvido,7.0,5,Não,Ana
+CH010,2026-08-24,Laboratório,Rede,Crítica,Resolvido,6.0,2,Sim,Bruno
+CH011,2026-08-25,Financeiro,Hardware,Média,Aberto,,,Não,Carla
+CH012,2026-08-25,Acadêmico,Acesso,Baixa,Resolvido,10.0,5,Não,Diego
+CH013,2026-08-26,Biblioteca,Rede,Média,Resolvido,18.0,4,Não,Ana
+CH014,2026-08-26,RH,Sistema lento,Alta,Resolvido,14.0,3,Sim,Bruno
+CH015,2026-08-27,Laboratório,Erro de sistema,Crítica,Resolvido,3.0,5,Não,Carla
+CH016,2026-08-27,Financeiro,Acesso,Baixa,Resolvido,52.0,2,Sim,Diego
+CH017,2026-08-28,Acadêmico,Hardware,Média,Resolvido,16.0,4,Não,Ana
+CH018,2026-08-28,Laboratório,Sistema lento,Média,Resolvido,120.0,1,Sim,Bruno
