@@ -1,0 +1,31 @@
+{
+  "origem": "dados públicos observados; sem simulação",
+  "fonte_osc": "https://mapaosc.ipea.gov.br/download/20260806_MOSC_baseDivulgacao.csv",
+  "pagina_fonte_osc": "https://mapaosc.ipea.gov.br/base-dados",
+  "fonte_populacao": "https://apisidra.ibge.gov.br/values/t/4714/n6/all/v/93/p/2022",
+  "periodo_osc": "Coleta agosto/2026, conforme portal; arquivo 20260806",
+  "periodo_populacao": "Censo Demográfico 2022, SIDRA tabela 4714, variável 93",
+  "extraido_em": "2026-11-04",
+  "separador_original": ";",
+  "encoding": "UTF-8 com substituição de caracteres inválidos já existentes na fonte",
+  "filtro": "Area_Assistencia_social == '1'",
+  "colunas_retidas": [
+    "cnpj",
+    "tx_razao_social_osc",
+    "natureza_juridica",
+    "matriz_filial",
+    "situacao_cadastral",
+    "dt_fundacao_osc",
+    "removida_do_mosc",
+    "cd_municipio",
+    "municipio_nome",
+    "UF_Sigla",
+    "Area_Assistencia_social"
+  ],
+  "linhas_original": 1113949,
+  "linhas_recorte": 58184,
+  "sha256_original_osc": "77d4b622ae84df3cc97fb274662463b9112a8e2e93e655e1beb3316fad37193e",
+  "sha256_recorte_osc": "8eb736759bf9f8dac43f48f8de409bc3ccefa16571e6882f1d451a4d8a5b2229",
+  "sha256_populacao": "ec3c169ff4e6f59641c3ec681aabe2b96b65edf2273e2f319eaa37d565413558",
+  "bytes_original_osc": 343956497
+}

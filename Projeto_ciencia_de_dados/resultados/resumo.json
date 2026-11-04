@@ -1,0 +1,25 @@
+{
+  "origem": "dados reais públicos",
+  "oscs_base_original": 1113949,
+  "oscs_assistencia": 58184,
+  "ativas_no_mapa": 39836,
+  "municipios_censo": 5570,
+  "municipios_com_osc_ativa": 3954,
+  "oscs_df": 894,
+  "classificador_escolhido": "Arvore",
+  "n_treino": 37228,
+  "n_validacao": 9265,
+  "n_teste": 11673,
+  "positivos_teste": 3504,
+  "k": 2,
+  "silhueta": 0.3599448289397868,
+  "municipios_clusterizados": 1491,
+  "regressao": {
+    "coeficiente": 1.6659198489820102,
+    "intercepto": -5.660088350838345,
+    "r2_teste_log": 0.595033800181741,
+    "mae_teste_oscs": 3.5213882183605154,
+    "n_treino": 4456,
+    "n_teste": 1114
+  }
+}
