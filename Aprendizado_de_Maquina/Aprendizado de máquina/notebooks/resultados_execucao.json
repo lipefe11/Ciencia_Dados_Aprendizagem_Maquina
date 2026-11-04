@@ -1,0 +1,317 @@
+{
+  "autor": "Felipe Barbosa Vieira",
+  "csv_identico_simulacao": true,
+  "profundidade": 5,
+  "min_samples_leaf": 40,
+  "validacao_escolhida": 0.7288888888888889,
+  "desvio_validacao_escolhida": 0.03030707043774635,
+  "treino_cv_escolhida": 0.7755555555555556,
+  "referencia_validacao_cv": 0.5888888888888889,
+  "acuracia_treino": 0.7622222222222222,
+  "acuracia_teste": 0.78,
+  "acuracia_referencia": 0.5933333333333334,
+  "matriz_confusao": [
+    [
+      70,
+      19
+    ],
+    [
+      14,
+      47
+    ]
+  ],
+  "matriz_roteiro_posteriori": [
+    [
+      75,
+      14
+    ],
+    [
+      19,
+      42
+    ]
+  ],
+  "sensibilidade_classe1": 0.7704918032786885,
+  "especificidade_classe0": 0.7865168539325843,
+  "precisao_classe1": 0.7121212121212122,
+  "f1_classe1": 0.7401574803149606,
+  "importancias": {
+    "frequencia_sem4": 0.2100817515191186,
+    "nota_sem4": 0.6996919487038341,
+    "entregas_sem4": 0.09022629977704717
+  },
+  "grade": [
+    {
+      "folha": 5,
+      "profundidade": "2",
+      "treino_cv": 0.7328,
+      "validacao_cv": 0.6844,
+      "desvio": 0.0425,
+      "distancia": 0.0483
+    },
+    {
+      "folha": 5,
+      "profundidade": "3",
+      "treino_cv": 0.7706,
+      "validacao_cv": 0.7,
+      "desvio": 0.0233,
+      "distancia": 0.0706
+    },
+    {
+      "folha": 5,
+      "profundidade": "5",
+      "treino_cv": 0.8261,
+      "validacao_cv": 0.7222,
+      "desvio": 0.0298,
+      "distancia": 0.1039
+    },
+    {
+      "folha": 5,
+      "profundidade": "None",
+      "treino_cv": 0.8678,
+      "validacao_cv": 0.7133,
+      "desvio": 0.0215,
+      "distancia": 0.1544
+    },
+    {
+      "folha": 10,
+      "profundidade": "2",
+      "treino_cv": 0.7328,
+      "validacao_cv": 0.6844,
+      "desvio": 0.0425,
+      "distancia": 0.0483
+    },
+    {
+      "folha": 10,
+      "profundidade": "3",
+      "treino_cv": 0.7678,
+      "validacao_cv": 0.7022,
+      "desvio": 0.0257,
+      "distancia": 0.0656
+    },
+    {
+      "folha": 10,
+      "profundidade": "5",
+      "treino_cv": 0.8111,
+      "validacao_cv": 0.7222,
+      "desvio": 0.0391,
+      "distancia": 0.0889
+    },
+    {
+      "folha": 10,
+      "profundidade": "None",
+      "treino_cv": 0.8206,
+      "validacao_cv": 0.7111,
+      "desvio": 0.0477,
+      "distancia": 0.1094
+    },
+    {
+      "folha": 20,
+      "profundidade": "2",
+      "treino_cv": 0.7328,
+      "validacao_cv": 0.6844,
+      "desvio": 0.0425,
+      "distancia": 0.0483
+    },
+    {
+      "folha": 20,
+      "profundidade": "3",
+      "treino_cv": 0.7656,
+      "validacao_cv": 0.6978,
+      "desvio": 0.0325,
+      "distancia": 0.0678
+    },
+    {
+      "folha": 20,
+      "profundidade": "5",
+      "treino_cv": 0.79,
+      "validacao_cv": 0.7267,
+      "desvio": 0.048,
+      "distancia": 0.0633
+    },
+    {
+      "folha": 20,
+      "profundidade": "None",
+      "treino_cv": 0.79,
+      "validacao_cv": 0.7267,
+      "desvio": 0.048,
+      "distancia": 0.0633
+    },
+    {
+      "folha": 40,
+      "profundidade": "2",
+      "treino_cv": 0.7328,
+      "validacao_cv": 0.6844,
+      "desvio": 0.0425,
+      "distancia": 0.0483
+    },
+    {
+      "folha": 40,
+      "profundidade": "3",
+      "treino_cv": 0.7661,
+      "validacao_cv": 0.7111,
+      "desvio": 0.0351,
+      "distancia": 0.055
+    },
+    {
+      "folha": 40,
+      "profundidade": "5",
+      "treino_cv": 0.7756,
+      "validacao_cv": 0.7289,
+      "desvio": 0.0303,
+      "distancia": 0.0467
+    },
+    {
+      "folha": 40,
+      "profundidade": "None",
+      "treino_cv": 0.7756,
+      "validacao_cv": 0.7289,
+      "desvio": 0.0303,
+      "distancia": 0.0467
+    }
+  ],
+  "remocao_atributos": [
+    {
+      "retirado": "(nenhum)",
+      "validacao_cv": 0.7289,
+      "desvio": 0.0303,
+      "variacao": 0.0
+    },
+    {
+      "retirado": "frequencia_sem4",
+      "validacao_cv": 0.7311,
+      "desvio": 0.0333,
+      "variacao": 0.0022
+    },
+    {
+      "retirado": "nota_sem4",
+      "validacao_cv": 0.6511,
+      "desvio": 0.0303,
+      "variacao": -0.0778
+    },
+    {
+      "retirado": "entregas_sem4",
+      "validacao_cv": 0.7244,
+      "desvio": 0.0394,
+      "variacao": -0.0044
+    }
+  ],
+  "estabilidade_repetida": [
+    {
+      "config": "prof 5 / folha 10",
+      "media_50": 0.7216,
+      "desvio_50": 0.0352,
+      "menor_media_rep": 0.7022,
+      "maior_media_rep": 0.7422
+    },
+    {
+      "config": "prof 5 / folha 40",
+      "media_50": 0.7144,
+      "desvio_50": 0.0372,
+      "menor_media_rep": 0.6867,
+      "maior_media_rep": 0.7289
+    },
+    {
+      "config": "prof 2 / folha 10",
+      "media_50": 0.6851,
+      "desvio_50": 0.0383,
+      "menor_media_rep": 0.6644,
+      "maior_media_rep": 0.6978
+    },
+    {
+      "config": "prof None / folha 5",
+      "media_50": 0.7064,
+      "desvio_50": 0.0379,
+      "menor_media_rep": 0.68,
+      "maior_media_rep": 0.7311
+    }
+  ],
+  "curva_aprendizado": [
+    {
+      "n_treino": 72,
+      "treino": 0.6111,
+      "validacao": 0.5889,
+      "desvio_val": 0.0
+    },
+    {
+      "n_treino": 144,
+      "treino": 0.7389,
+      "validacao": 0.7156,
+      "desvio_val": 0.0206
+    },
+    {
+      "n_treino": 216,
+      "treino": 0.7472,
+      "validacao": 0.7267,
+      "desvio_val": 0.0303
+    },
+    {
+      "n_treino": 288,
+      "treino": 0.7646,
+      "validacao": 0.7089,
+      "desvio_val": 0.0394
+    },
+    {
+      "n_treino": 360,
+      "treino": 0.7756,
+      "validacao": 0.7289,
+      "desvio_val": 0.0303
+    }
+  ],
+  "mae": 28.592371891051492,
+  "r2": 0.8774401457921505,
+  "mae_referencia": 84.73054077484917,
+  "r2_referencia": -0.003734513831553654,
+  "coeficientes_regressao": [
+    0.3479872609773974,
+    2.2970263692551334
+  ],
+  "intercepto": 37.317264148313654,
+  "residuos": {
+    "media": -1.2835126390243266,
+    "desvio": 35.47256145989073,
+    "min": -87.2383385807131,
+    "max": 64.59405201855753
+  },
+  "remocao_regressao": [
+    {
+      "atributos": "usuarios_ativos + horas_abertura",
+      "MAE_cv": 28.892,
+      "desvio_MAE": 1.771,
+      "R2_cv": 0.867
+    },
+    {
+      "atributos": "usuarios_ativos",
+      "MAE_cv": 35.904,
+      "desvio_MAE": 3.192,
+      "R2_cv": 0.798
+    },
+    {
+      "atributos": "horas_abertura",
+      "MAE_cv": 83.728,
+      "desvio_MAE": 5.357,
+      "R2_cv": 0.048
+    }
+  ],
+  "extrapolacao": [
+    {
+      "usuarios_ativos": 500,
+      "horas_abertura": 40,
+      "previsao": 303.2
+    },
+    {
+      "usuarios_ativos": 2000,
+      "horas_abertura": 80,
+      "previsao": 917.1
+    },
+    {
+      "usuarios_ativos": 10000,
+      "horas_abertura": 168,
+      "previsao": 3903.1
+    }
+  ],
+  "python": "3.13.18",
+  "sklearn": "1.9.1",
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2"
+}

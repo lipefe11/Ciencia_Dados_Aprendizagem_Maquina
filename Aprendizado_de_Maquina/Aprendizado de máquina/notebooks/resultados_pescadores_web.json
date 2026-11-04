@@ -1,0 +1,318 @@
+{
+  "autor": "Felipe Barbosa Vieira",
+  "fonte": "Ipea Mapa das OSCs (arquivo 20260806, Area_Assistencia_social=1, situação Ativa e não removida) x IBGE Censo 2022 (SIDRA 4714)",
+  "n_municipios": 5570,
+  "proporcao_sem_osc": 0.2901256732495512,
+  "n_sem_osc": 1616,
+  "n_treino": 4177,
+  "n_teste": 1393,
+  "profundidade": 4,
+  "min_samples_leaf": 10,
+  "f1_validacao": 0.6164650580000725,
+  "f1_desvio_validacao": 0.02307861016890866,
+  "acc_validacao": 0.7857336045612124,
+  "acc_treino_cv": 0.7994973679030152,
+  "dummy_acc_validacao": 0.7098398418474056,
+  "limite_regra_populacao": 10500,
+  "teste": [
+    {
+      "modelo": "Dummy (sempre \"tem OSC\")",
+      "acuracia": 0.71,
+      "sensibilidade": 0.0,
+      "precisao": 0.0,
+      "f1": 0.0,
+      "TN": 989,
+      "FP": 0,
+      "FN": 404,
+      "TP": 0
+    },
+    {
+      "modelo": "Regra pop < 10500",
+      "acuracia": 0.6813,
+      "sensibilidade": 0.7896,
+      "precisao": 0.4705,
+      "f1": 0.5896,
+      "TN": 630,
+      "FP": 359,
+      "FN": 85,
+      "TP": 319
+    },
+    {
+      "modelo": "Árvore prof 4 / folha 10",
+      "acuracia": 0.7638,
+      "sensibilidade": 0.5891,
+      "precisao": 0.5935,
+      "f1": 0.5913,
+      "TN": 826,
+      "FP": 163,
+      "FN": 166,
+      "TP": 238
+    }
+  ],
+  "matriz_arvore": [
+    [
+      826,
+      163
+    ],
+    [
+      166,
+      238
+    ]
+  ],
+  "importancias": {
+    "log10_pop": 0.7125778159496784,
+    "reg_Nordeste": 0.18211667048438457,
+    "reg_Norte": 0.07811882405418064,
+    "reg_Sul": 0.016679163141571862,
+    "reg_Sudeste": 0.01050752637018451,
+    "reg_Centro-Oeste": 0.0
+  },
+  "grade": [
+    {
+      "folha": 10,
+      "profundidade": "1",
+      "acc_treino": 0.7399,
+      "acc_val": 0.7295,
+      "rec_val": 0.4789,
+      "prec_val": 0.4304,
+      "f1_val": 0.4521,
+      "f1_desvio": 0.2279
+    },
+    {
+      "folha": 10,
+      "profundidade": "2",
+      "acc_treino": 0.7683,
+      "acc_val": 0.7673,
+      "rec_val": 0.3605,
+      "prec_val": 0.689,
+      "f1_val": 0.4733,
+      "f1_desvio": 0.0235
+    },
+    {
+      "folha": 10,
+      "profundidade": "3",
+      "acc_treino": 0.7873,
+      "acc_val": 0.7853,
+      "rec_val": 0.4917,
+      "prec_val": 0.68,
+      "f1_val": 0.5687,
+      "f1_desvio": 0.0388
+    },
+    {
+      "folha": 10,
+      "profundidade": "4",
+      "acc_treino": 0.7995,
+      "acc_val": 0.7857,
+      "rec_val": 0.595,
+      "prec_val": 0.6443,
+      "f1_val": 0.6165,
+      "f1_desvio": 0.0231
+    },
+    {
+      "folha": 10,
+      "profundidade": "6",
+      "acc_treino": 0.8111,
+      "acc_val": 0.7812,
+      "rec_val": 0.552,
+      "prec_val": 0.6447,
+      "f1_val": 0.5932,
+      "f1_desvio": 0.0277
+    },
+    {
+      "folha": 10,
+      "profundidade": "None",
+      "acc_treino": 0.8306,
+      "acc_val": 0.7594,
+      "rec_val": 0.4992,
+      "prec_val": 0.6045,
+      "f1_val": 0.5466,
+      "f1_desvio": 0.0152
+    },
+    {
+      "folha": 30,
+      "profundidade": "1",
+      "acc_treino": 0.7399,
+      "acc_val": 0.7295,
+      "rec_val": 0.4789,
+      "prec_val": 0.4304,
+      "f1_val": 0.4521,
+      "f1_desvio": 0.2279
+    },
+    {
+      "folha": 30,
+      "profundidade": "2",
+      "acc_treino": 0.7683,
+      "acc_val": 0.7673,
+      "rec_val": 0.3605,
+      "prec_val": 0.689,
+      "f1_val": 0.4733,
+      "f1_desvio": 0.0235
+    },
+    {
+      "folha": 30,
+      "profundidade": "3",
+      "acc_treino": 0.7873,
+      "acc_val": 0.7853,
+      "rec_val": 0.4917,
+      "prec_val": 0.68,
+      "f1_val": 0.5687,
+      "f1_desvio": 0.0388
+    },
+    {
+      "folha": 30,
+      "profundidade": "4",
+      "acc_treino": 0.7994,
+      "acc_val": 0.7872,
+      "rec_val": 0.5793,
+      "prec_val": 0.6547,
+      "f1_val": 0.6116,
+      "f1_desvio": 0.022
+    },
+    {
+      "folha": 30,
+      "profundidade": "6",
+      "acc_treino": 0.8051,
+      "acc_val": 0.7831,
+      "rec_val": 0.5504,
+      "prec_val": 0.6502,
+      "f1_val": 0.5954,
+      "f1_desvio": 0.0153
+    },
+    {
+      "folha": 30,
+      "profundidade": "None",
+      "acc_treino": 0.8066,
+      "acc_val": 0.7814,
+      "rec_val": 0.5545,
+      "prec_val": 0.6435,
+      "f1_val": 0.5955,
+      "f1_desvio": 0.0176
+    },
+    {
+      "folha": 60,
+      "profundidade": "1",
+      "acc_treino": 0.7399,
+      "acc_val": 0.7295,
+      "rec_val": 0.4789,
+      "prec_val": 0.4304,
+      "f1_val": 0.4521,
+      "f1_desvio": 0.2279
+    },
+    {
+      "folha": 60,
+      "profundidade": "2",
+      "acc_treino": 0.7683,
+      "acc_val": 0.7673,
+      "rec_val": 0.3605,
+      "prec_val": 0.689,
+      "f1_val": 0.4733,
+      "f1_desvio": 0.0235
+    },
+    {
+      "folha": 60,
+      "profundidade": "3",
+      "acc_treino": 0.7873,
+      "acc_val": 0.7853,
+      "rec_val": 0.4917,
+      "prec_val": 0.68,
+      "f1_val": 0.5687,
+      "f1_desvio": 0.0388
+    },
+    {
+      "folha": 60,
+      "profundidade": "4",
+      "acc_treino": 0.7976,
+      "acc_val": 0.7867,
+      "rec_val": 0.5298,
+      "prec_val": 0.6687,
+      "f1_val": 0.5896,
+      "f1_desvio": 0.0284
+    },
+    {
+      "folha": 60,
+      "profundidade": "6",
+      "acc_treino": 0.799,
+      "acc_val": 0.7821,
+      "rec_val": 0.543,
+      "prec_val": 0.6516,
+      "f1_val": 0.59,
+      "f1_desvio": 0.0247
+    },
+    {
+      "folha": 60,
+      "profundidade": "None",
+      "acc_treino": 0.799,
+      "acc_val": 0.7821,
+      "rec_val": 0.543,
+      "prec_val": 0.6516,
+      "f1_val": 0.59,
+      "f1_desvio": 0.0247
+    }
+  ],
+  "erros_por_faixa": {
+    "até 5 mil": {
+      "FN": 40,
+      "FP": 98,
+      "acerto": 216
+    },
+    "5–10 mil": {
+      "FN": 38,
+      "FP": 44,
+      "acerto": 195
+    },
+    "10–20 mil": {
+      "FN": 72,
+      "FP": 16,
+      "acerto": 270
+    },
+    "20–50 mil": {
+      "FN": 15,
+      "FP": 5,
+      "acerto": 224
+    },
+    "acima de 50 mil": {
+      "FN": 1,
+      "FP": 0,
+      "acerto": 159
+    }
+  },
+  "experimento_atributos": [
+    {
+      "atributos": "só população",
+      "acc_val": 0.7644,
+      "rec_val": 0.3803,
+      "f1_val": 0.4836,
+      "f1_desvio": 0.0237
+    },
+    {
+      "atributos": "população + região",
+      "acc_val": 0.7857,
+      "rec_val": 0.595,
+      "f1_val": 0.6165,
+      "f1_desvio": 0.0231
+    }
+  ],
+  "experimento_grupo_uf": {
+    "acc_val_grupo_uf": 0.7837189191891956,
+    "f1_val_grupo_uf": 0.5780356662475462,
+    "f1_desvio_grupo_uf": 0.10041326381430433,
+    "rec_val_grupo_uf": 0.5436300867734793,
+    "f1_por_dobra": [
+      0.4254,
+      0.5826,
+      0.5127,
+      0.6792,
+      0.6903
+    ]
+  },
+  "df": {
+    "populacao_2022": 2817381,
+    "oscs_ativas": 629
+  },
+  "centro_oeste_pct_sem_osc": 32.33404710920771,
+  "python": "3.13.18",
+  "sklearn": "1.9.1",
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2"
+}
